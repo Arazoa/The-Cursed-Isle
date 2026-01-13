@@ -17,6 +17,8 @@
     box-sizing: border-box;
     background-color: var(--panel);
     border-bottom: 5px solid var(--accent);
+    z-index: 1000;
+    position: fixed;
 }
 
 .logo {
