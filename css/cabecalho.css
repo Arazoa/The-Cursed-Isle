@@ -7,38 +7,31 @@
     --header-height: 90px; 
 }
 
-.cabecalho{
+.cabecalho {
     width: 100%;
+    min-height: var(--header-height);
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    padding: 15px;
-
+    padding: 0 5%;
     box-sizing: border-box;
-    border-style:solid;
-    border-width: 5px;
-    border-color: rgb(74, 176, 184);
-    background-color: rgb(69, 131, 136);
+    background-color: var(--panel);
+    border-bottom: 5px solid var(--accent);
 }
 
-.logo{
+.logo {
     display: flex;
     align-items: center;
-    text-decoration: none;
-    color: var(--ink);
-    font-weight: bold;
-    font-size: 1.5rem;
     gap: 10px;
+    font-size: clamp(1rem, 3vw, 1.5rem);
+    color: var(--ink);
+    text-decoration: none;
+    font-weight: bold;
 }
 
-.logo_imagem,
-.logo img {
-    max-width: 80px;    
-    max-height: 50px;   
-    width: auto;
+.logo_imagem {
+    max-width: 60px;
     height: auto;
-    margin-right: 10px;
-    object-fit: contain; 
-    display: block;
 }
 
 .nav-link {
