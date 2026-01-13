@@ -53,21 +53,18 @@ table {
     border: 3px solid var(--accent);
 }
 
-th {
-    border: 1px solid var(--ink);
-    background-color: var(--panel);
-    color: var(--ink);
-    font-weight: bold;
-    text-align: center;
-    padding: 12px 10px;
-    white-space: nowrap;
+table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 800px; 
+    background-color: rgba(26, 26, 26, 0.9);
 }
 
-td {
-    font-size: 0.95rem;
-    text-align: center;
+th, td {
+    padding: 12px;
     border: 1px solid var(--muted);
-    padding: 10px 8px;
+    text-align: center;
+    white-space: nowrap; 
 }
 
 tbody tr:nth-child(even) td { 
