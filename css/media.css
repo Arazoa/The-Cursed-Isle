@@ -1,0 +1,45 @@
+@media (max-width: 768px) {
+    main{
+        padding: 5%;
+    }
+    
+    .topnav {
+        width: auto; 
+    }
+
+    .navbar {
+        flex-grow: 1;
+        justify-content: flex-end;
+    }
+
+    .nav-menu {
+        display: none;
+        flex-direction: column;
+        position: absolute; 
+        top: var(--header-height); 
+        left: 0;
+        width: 100%;
+        background-color: var(--panel);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+        z-index: 10;
+        padding: 10px 0; 
+    }
+    
+    .nav-item {
+        width: 100%;
+    }
+
+    .nav-link {
+        display: block; 
+        padding: 10px 20px; 
+    }
+
+    .nav-menu.active {
+        display: flex;
+    }
+
+    .hamburger {
+        display: flex;
+        z-index: 20; 
+    }
+}
