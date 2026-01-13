@@ -1,4 +1,4 @@
-:root{
+:root {
     --bg: #1a1a1a; 
     --accent: #4aa8b8; 
     --panel: #458388; 
@@ -7,76 +7,120 @@
     --header-height: 90px; 
 }
 
-main{
-    flex: 1;
-    padding: 3%;
-    box-sizing: border-box;
-    margin: 0 auto;
-    width: 100%;
-}
-
-html, body{
+html, body {
     margin: 0;
     padding: 0;
     background-color: var(--bg);
     color: var(--accent);
-   
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-h1{
+main {
+    flex: 1;
+    padding: 2rem 5%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px; 
+}
+
+h1 {
     text-align: center;
     color: var(--accent);
     font-weight: 700;
-    margin: 0 0 12px 0;
+    margin: 0 0 20px 0;
     padding-bottom: 15px;
-    font-size: 1.6rem;
-    border-bottom: 1px;
-    border-style: solid;
-    border-color: var(--ink);
+    font-size: clamp(1.5rem, 5vw, 2.2rem);
+    border-bottom: 2px solid var(--ink);
 }
 
-h2{
+h2 {
     font-weight: 700;
-    font-size: 1.2rem;
+    font-size: clamp(1.1rem, 3vw, 1.5rem);
     text-align: center;
-    margin-bottom: 10px;
+    margin: 25px 0 15px 0;
 }
 
-table{
+table {
     border-collapse: collapse;
     border-spacing: 0;
     width: 100%;
     background-color: transparent;
     color: var(--accent);
-    /* Melhoria: Adicionar borda externa à tabela */
-    border: 3px solid var(--accent); 
+    border: 3px solid var(--accent);
 }
 
 th {
-    border-style: solid; /* Usar solid para mais clareza visual */
-    border-width: 1px; /* Espessura da borda interna */
-    border-color: var(--ink); /* Borda mais discreta dentro do cabeçalho */
-    background-color: var(--panel); 
-    color: var(--ink); 
+    border: 1px solid var(--ink);
+    background-color: var(--panel);
+    color: var(--ink);
     font-weight: bold;
     text-align: center;
-    padding: 10px 12px; /* Aumentar um pouco o padding para melhor leitura */
+    padding: 12px 10px;
+    white-space: nowrap;
 }
 
-td{
+td {
     font-size: 0.95rem;
     text-align: center;
     border: 1px solid var(--muted);
-    padding: 8px 6px;
+    padding: 10px 8px;
 }
 
-tbody tr:nth-child(even) td{ 
-    background: rgba(74, 168, 184, 0.05); 
+tbody tr:nth-child(even) td { 
+    background: rgba(74, 168, 184, 0.05);
 }
 
-.head th {
+.overflow-x-auto {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch; 
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.table-container {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin: 20px 0;
+    border: 2px solid var(--accent);
+    border-radius: 8px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 800px; /
+    background-color: rgba(26, 26, 26, 0.9);
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid var(--muted);
+    text-align: center;
+}
+
+thead th {
     background-color: var(--panel);
+    color: var(--ink);
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+}
+
+tbody td:first-child {
+    font-weight: bold;
+    color: var(--accent);
+    text-align: left;
+    background-color: rgba(74, 168, 184, 0.1);
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.03);
+}
+
+tbody tr:hover {
+    background-color: rgba(74, 168, 184, 0.15);
 }
