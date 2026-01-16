@@ -17,8 +17,8 @@
     box-sizing: border-box;
     background-color: var(--panel);
     border-bottom: 5px solid var(--accent);
-    z-index: 1000;
     position: fixed;
+    z-index: 1000;
 }
 
 .logo {
@@ -40,16 +40,14 @@
     text-decoration: none;
     color: var(--ink);
     padding: 5px 10px;
-    transition: background-color 0.3s, color 0.3s;
+    transition: 0.3s, color 0.3s;
     border-radius: 4px;
 }
 
-.nav-link:hover,
-.nav-link:focus {
-    background-color: var(--ink); 
-    color: var(--accent);
+.nav-link:hover{
+    background-color:#083838; 
+    color: var(--accent);   
 }
-
 .topnav{
     display: flex;
     justify-content: space-between;
@@ -70,10 +68,10 @@
 }
 
 .nav-menu .active {
-    color:#1a1a1a;
+    color:#d4d4d4;
     font-weight: bold;
-    text-decoration: underline;
-    padding-left: 5%;
+    border-bottom: #161616 solid 2px;
+    background-color:#083838;
 }
 
 .hamburger {
@@ -88,4 +86,40 @@
     background-color: var(--ink);
     margin: 2px 0;
     transition: 0.4s;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: var(--panel);
+    border: 2px solid var(--accent);
+    list-style: none;
+    padding: 10px 0;
+    min-width: 150px;
+    z-index: 1100;
+    margin: 0;
+    margin-right: 10px;
+}
+
+.dropdown-menu.show {
+    display: block;
+}
+
+.dropdown-item {
+    display: block;
+    padding: 8px 20px;
+    color: var(--ink);
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.dropdown-item:hover {
+    background-color: var(--ink);
+    color: var(--accent);
 }

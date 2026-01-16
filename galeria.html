@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>The Cursed Isle</title>
+        <link href="img/logo.svg" rel="icon">   
+        <link rel="stylesheet" href="css/reset.css">    
+        <link rel="stylesheet" href="css/cabecalho.css">
+        <link rel="stylesheet" href="css/media.css">
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/galeria.css">
+    </head>
+    <body>
+        <header class="cabecalho">
+            <div class="topnav">
+                <a class="logo" href="index.html">
+                    <img class="logo_imagem" src="img/logo.png" alt="Logo The Cursed Dinosaur Isle"> 
+                    <span>The Cursed Dinosaur Isle</span> </a>
+            </div>
+            <nav class="navbar">
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Início</a></li>
+                    <li class="nav-item"><a href="galeria.html" class="nav-link active">Galeria</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#">Info</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="tasks.html">Tasks</a></li>
+                            <li><a class="dropdown-item" href="status.html">Status</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <h1>Galeria de Espécies</h1>
+            <h2>Explore os habitantes da ilha amaldiçoada</h2>
+            
+            <section id="animais" class="racas">
+                <h3 class="text-center mb-4"></h3>
+                
+                <div class="linha-racas">
+                    <div class="col-md-4" id="barba">
+                        <div class="card-raca">
+                            <img src="img/pict/barbamodel.png" alt="Barbaridactylus">
+                            <div class="card-body-custom">
+                                <h3>Barbaridactylus</h3>
+                                <p>O maior dos nyctossaurideos, pterossauros pescadores.</p>
+                                <a class="btn-verificar" data-dino="Barbaridactylus">Verificar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4" id="coelo">
+                        <div class="card-raca">
+                            <img src="img/pict/coelomodel.png" alt="Coelophysis">
+                            <div class="card-body-custom">
+                                <h3>Coelophysis</h3>
+                                <p>Um dos terópodes mais antigos que conhecemos.</p>
+                                <a class="btn-verificar" data-dino="Coelophysis">Verificar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4" id="psitta">
+                        <div class="card-raca">
+                            <img src="img/pict/psittamodel.png" alt="Psittacosaurus">
+                            <div class="card-body-custom">
+                                <h3>Psittacosaurus</h3>
+                                <p>Um pequeno ornitísquio bípede, parente dos ceratopsianos.</p>
+                                <a class="btn-verificar" data-dino="Psittacosaurus">Verificar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4" id="deino">
+                        <div class="card-raca">
+                            <img src="img/pict/deinomodel.png" alt="Deinonychus">
+                            <div class="card-body-custom">
+                                <h3>Deinonychus</h3>
+                                <p>Um dromaesaurus de porte médio, com garras letais.</p>
+                                <a class="btn-verificar" data-dino="Deinonychus">Verificar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4" id="guan">
+                        <div class="card-raca">
+                            <img src="img/pict/guanmodel.png" alt="Guanlong">
+                            <div class="card-body-custom">
+                                <h3>Guanlong</h3>
+                                <p>Um proceratossaurídeo, parente antigo do T. rex.</p>
+                                <a class="btn-verificar" data-dino="Guanlong">Verificar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4" id="orni">
+                        <div class="card-raca">
+                            <img src="img/pict/ornimodel.png" alt="Ornithomimus">
+                            <div class="card-body-custom">
+                                <h3>Ornithomimus</h3>
+                                <p>Um terópode majoritariamente herbívoro, capaz de atingir grandes velocidades.</p>
+                                <a class="btn-verificar" data-dino="Ornithomimus">Verificar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--<div class="col-md-4" id="pachy">
+                        <div class="card-raca">
+                            <img src="img/pict/pachymodel.png" alt="Pachycephalosaurus">
+                            <div class="card-body-custom">
+                                <h3>Pachycephalosaurus</h3>
+                                <p>Um ornitischio bíbede, parente do gigante triceratops.</p>
+                                <a class="btn-verificar" data-dino="Pachycephalosaurus">Verificar</a>
+                            </div>
+                        </div>
+                    </div>!-->             
+                </div>
+            </section>
+            
+            <div id="myModal" class="modal">
+                <div class="modal-content dino-card-style">
+                    <span class="close">&times;</span>
+
+                    <div class="header">
+                        <div class="header-left">
+                            <div class="dino-avatar">
+                                <img id="modal-img" src="" alt="Dino">
+                            </div>
+                            <div class="dino-name" id="modal-dino-name">
+                                NOME DO DINO
+                            </div>
+                        </div>
+                        <div class="diet-icon" id="modal-diet-icon">
+                            🥩
+                        </div>
+                    </div>
+
+                    <div class="stats-box">
+                        <div class="stat-item">
+                            <h4>Limite de grupo</h4>
+                            <p id="stat-group">0</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>Idade</h4>
+                            <p id="stat-age">0</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>Crescimento</h4>
+                            <p id="stat-growth">0 min</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>Preço</h4>
+                            <p id="stat-price">0</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>Skin 1</h4>
+                            <p id="stat-skin1">0</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>Skin 2</h4>
+                            <p id="stat-skin2">0</p>
+                        </div>
+                    </div>
+
+                    <h2 class="section-title">Habilidades</h2>
+                    
+                    <h3 class="sub-title">Passivas</h3>
+                    <div class="skills-container" id="passives-container"></div>
+
+                    <h3 class="sub-title">Ativas</h3>
+                    <div class="skills-container" id="actives-container"></div>
+                </div>
+            </div>
+        </main>
+        <footer>  
+            <div class="rodape">     
+                <span> &copy; 2026 Ablaze</span>
+            </div> 
+        </footer>  
+        <script src="js/galeria.js"></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>
