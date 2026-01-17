@@ -1,12 +1,3 @@
-:root{
-    --bg: #1a1a1a; 
-    --accent: #4aa8b8; 
-    --panel: #458388; 
-    --ink: #083838; 
-    --muted: #616161;
-    --header-height: 90px; 
-}
-
 .cabecalho {
     width: 100%;
     min-height: var(--header-height);

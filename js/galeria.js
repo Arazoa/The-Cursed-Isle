@@ -40,7 +40,7 @@ const dinoDatabase = {
         ],
         actives: [
             {
-                title: "Trodéu de carne",
+                title: "Troféu de carne",
                 desc: "O dinossauro usa um golpe forte, retirando um pedaço de carne caso atinja outro.",
                 icon: "img/skill/carregada.png"
             },
@@ -55,7 +55,7 @@ const dinoDatabase = {
         fullName: "ORNITHOMIMUS<br>VELOX",
         image: "img/pict/orniperfil.png",
         diet: "🌿",
-        stats: { group: 5, age: 3, growth: "17 min", price: "N/A", skin1: "5.500", skin2: 40 },
+        stats: { group: "-", age: 3, growth: "17 min", price: "N/A", skin1: "5.500", skin2: 40 },
         passives: [
             {
                 title: "Instinto materno",
@@ -91,7 +91,7 @@ const dinoDatabase = {
         fullName: "DEINONYCHUS<br>ANTIRHOPUS",
         image: "img/pict/deinoperfil.png",
         diet: "🥩🦈",
-        stats: { group: 5, age: 19, growth: "x min", price: "N/A", skin1: "6.500", skin2: 50 },
+        stats: { group: "-", age: 19, growth: "x min", price: "N/A", skin1: "6.500", skin2: 50 },
         passives: [
             {
                 title: "O poder do bando",
@@ -123,7 +123,7 @@ const dinoDatabase = {
         fullName: "PACHYCEPHALO<br>SAURUS WYOMINGENSIS",
         image: "img/pict/pachyperfil.png",
         diet: "🌿",
-        stats: { group: 5, age: 3, growth: "28 min", price: "8.000", skin1: "6.000", skin2: 80 },
+        stats: { group: "-", age: 3, growth: "28 min", price: "8.000", skin1: "6.000", skin2: 80 },
         passives: [
             {
                 title: "O poder do bando",
@@ -155,7 +155,7 @@ const dinoDatabase = {
         fullName: "GUANLONG<br>WUCAII",
         image: "img/pict/guanperfil.png",
         diet: "🥩",
-        stats: { group: 5, age: 5, growth: "x min", price: "180", skin1: "8.000", skin2: 50 },
+        stats: { group: "-", age: 5, growth: "x min", price: "180", skin1: "8.000", skin2: 50 },
         passives: [
             {
                 title: "Surto de poder",
@@ -185,7 +185,7 @@ const dinoDatabase = {
         fullName: "BARBARIDACTYLUS<br>GRANDIS",
         image: "img/pict/barbaperfil.png",
         diet: "🥩🦈",
-        stats: { group: 5, age: 9, growth: "42 min", price: "600", skin1: "20.000", skin2: 200 },
+        stats: { group: "-", age: 9, growth: "42 min", price: "600", skin1: "20.000", skin2: 200 },
         passives: [
             {
                 title: "O poder do bando",
@@ -210,7 +210,7 @@ const dinoDatabase = {
         fullName: "PSITTACOSAURUS<br>MONGOLIENSIS",
         image: "img/pict/psittaperfil.png",
         diet: "🌿",
-        stats: { group: 5, age: 14, growth: "20 min", price: "5.000", skin1: "-", skin2: "-" },
+        stats: { group: "-", age: 14, growth: "20 min", price: "5.000", skin1: "-", skin2: "-" },
         passives: [
             {
                 title: "Surto de poder",
@@ -228,6 +228,131 @@ const dinoDatabase = {
                 title: "Grito de Cura",
                 desc: "O dinossauro emite um grito que acelera a própria regeneração de HP e dos membros da matilha próximos.",
                 icon: "img/skill/buffR.png"
+            }
+        ]
+    },
+    "Quetzalcoatlus": {
+        fullName: "QUETZALCOATLUS<br>NORTHROPI",
+        image: "img/pict/quetzalperfil.png",
+        diet: "🥩🦈",
+        stats: { group: "-", age: 10, growth: "41 min", price: "125.000", skin1: "-", skin2: "-" },
+        passives: [
+            {
+                title: "O poder do bando",
+                desc: "Quando os membros da matilha estão perto de você, seu dano é aumentado.",
+                icon: "img/skill/rebanhoC.png"
+            },
+            {
+                title: "Surto de poder",    
+                desc: "Quando seu dinossauro está com pouco HP, seu consumo de stamina diminui e sua velocidade aumenta.",
+                icon: "img/skill/baixohp.png"
+            }
+        ],
+        actives: [
+            {
+                title: "Capturar",
+                desc: "Seu dinossauro agarra uma presa com o bico, podendo levá-lo consigo. Funciona apenas com animais menores.",
+                icon: "img/skill/capturar.png"
+            },  
+        ]
+    },  
+    "Austroraptor": {
+        fullName: "AUSTRORAPTOR<br>CABAZAI",
+        image: "img/pict/austroperfil.png",
+        diet: "🥩🦈", 
+        stats: { group: "-", age: 20, growth: "-", price: "28.000", skin1: "15.000", skin2: "195g" 
+        },
+        passives: [
+            {
+                title: "Vampirismo",
+                desc: "Ao atacar, seu dinossauro pode restaurar parte de sua saúde com o dano causado.",
+                icon: "img/skill/vamp.png"
+            },
+            {
+                title: "Juntos somos fortes!",    
+                desc: "Quando os membros da matilha estão perto de você, o gasto de resistência é reduzido.",
+                icon: "img/skill/rebanhoC.png"
+            }
+        ],
+        actives: [
+            {
+                title: "Ataque do céu",
+                desc: "Salta rapidamente, atacando o inimigo, há chances de reduzir sua defesa.",
+                icon: "img/skill/ataqueceu.png"
+            },  
+            {
+                title: "Disparada",
+                desc: "Salte para alcançar o inimigo ou escapar velozmente.",
+                icon: "img/skill/dash.png"
+            }
+        ]
+    },    
+    "Dilophosaurus": {
+        fullName: "DILOPHOSAURUS<br>WETHERILLI",
+        image: "img/pict/diloperfil.png",
+        diet: "🥩🦈",
+        stats: { 
+            group: "-", 
+            age: 18, 
+            growth: "-", 
+            price: "32.000", 
+            skin1: "18.000", 
+            skin2: "180g" 
+        },
+        passives: [
+            {
+                title: "Sede de Sangue",
+                desc: "Se você atacar um inimigo dentro de um curto período de tempo após seu ataque anterior, seu dinossauro ganhará um aumento temporário na chance de causar sangramento e velocidade de movimento.", 
+                icon: "img/skill/sedesangue.png"
+            },
+            {
+                title: "O poder do bando",    
+                desc: "Quando os membros da matilha estão perto de você, a recuperação de stamina acelera.",
+                icon: "img/skill/rebanhoC.png"
+            }
+        ],
+        actives: [
+            {
+                title: "Arranhão",
+                desc: "Ataque com as garras, tem maior chance de causar sangramento, mas causando menos dano.",
+                icon: "img/skill/garras.png"
+            },  
+            {
+                title: "Chuva de Golpes",
+                desc: "O dinossauro desfere múltiplas mordidas com maior chance de causar sangramento. Ataques causam menos dano",
+                icon: "img/skill/chuvagolpes.png"
+            }
+        ]
+    },
+    "Concavenator": {
+        fullName: "CONCAVENATOR<br>CORCOVATUS",
+        image: "img/pict/concaperfil.png",
+        diet: "🥩🦈",
+        stats: { 
+            group: "Tier 2", 
+            age: 12, 
+            growth: "-", 
+            price: "280g", 
+            skin1: "-", 
+            skin2: "-" 
+        },
+        passives: [
+            {
+                title: "O poder do bando",
+                desc: "Quando os membros da matilha estão próximos, você recupera HP mais rápido.",
+                icon: "img/skill/rebanhoC.png"
+            },
+            {
+                title: "Surto de poder",    
+                desc: "Quando seu dinossauro está com pouco HP, seu dano aumenta e o consumo de stamina é reduzido.",
+                icon: "img/skill/poucohp.png"
+            }
+        ],
+        actives: [
+            {
+                title: "Golpe Esmagador",
+                desc: "O dinossauro causa um golpe devastador com dano aumentado.",
+                icon: "img/skill/ataqueceu.png"
             }
         ]
     }
@@ -276,6 +401,78 @@ btns.forEach(btn => {
             });
 
             modal.style.display = "block";
+        }
+    });
+});
+
+modal.addEventListener("click", (e) => {
+  if (e.target === modal) {
+    fecharModal();
+  }
+});
+
+function fecharModal() {
+  modal.style.display = "none";
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    const hash = window.location.hash.substring(1); 
+    if (!hash) return;
+
+    const targetElement = document.getElementById(hash);
+    if (targetElement) {
+        const parentTier = targetElement.closest('.tier-indicator');
+
+        if (parentTier) {
+            const tierId = parentTier.id;
+            const tierBtn = document.querySelector(`.tier-btn[data-target="${tierId}"]`);
+
+            if (tierBtn) {
+                document.querySelectorAll('.tier-btn').forEach(btn => btn.classList.remove('active'));
+                document.querySelectorAll('.tier-indicator').forEach(content => content.classList.remove('active-content'));
+                tierBtn.classList.add('active');
+                parentTier.classList.add('active-content');
+            }
+        }
+        setTimeout(() => {
+            targetElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            const btn = targetElement.querySelector('.btn-verificar');
+            if (btn) {
+                btn.click();
+            }
+        }, 150);
+    }
+});
+
+const imgModal = document.getElementById("imgModal");
+const imgModalContent = document.getElementById("imgModalContent");
+
+document.querySelectorAll(".img-dino").forEach(img => {
+  img.addEventListener("click", () => {
+    imgModal.style.display = "flex";
+    imgModalContent.src = img.src;
+  });
+});
+
+imgModal.addEventListener("click", () => {
+  imgModal.style.display = "none";
+});
+
+const tabButtons = document.querySelectorAll(".tier-btn");
+const tierContents = document.querySelectorAll(".tier-indicator");
+
+tabButtons.forEach(btn => {
+    btn.addEventListener("click", () => {
+        tabButtons.forEach(b => b.classList.remove("active"));
+        btn.classList.add("active");
+
+        tierContents.forEach(content => content.classList.remove("active-content"));
+
+        const targetId = btn.getAttribute("data-target");
+        const targetContent = document.getElementById(targetId);
+        
+        if (targetContent) {
+            targetContent.classList.add("active-content");
         }
     });
 });

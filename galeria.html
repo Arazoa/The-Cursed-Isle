@@ -7,9 +7,9 @@
         <link href="img/logo.svg" rel="icon">   
         <link rel="stylesheet" href="css/reset.css">    
         <link rel="stylesheet" href="css/cabecalho.css">
-        <link rel="stylesheet" href="css/media.css">
         <link rel="stylesheet" href="css/index.css">
         <link rel="stylesheet" href="css/galeria.css">
+        <link rel="stylesheet" href="css/media.css">
     </head>
     <body>
         <header class="cabecalho">
@@ -40,84 +40,162 @@
         <main>
             <h1>Galeria de Espécies</h1>
             <h2>Explore os habitantes da ilha amaldiçoada</h2>
-            
+      
             <section id="animais" class="racas">
-                <h3 class="text-center mb-4"></h3>
-                
-                <div class="linha-racas">
-                    <div class="col-md-4" id="barba">
-                        <div class="card-raca">
-                            <img src="img/pict/barbamodel.png" alt="Barbaridactylus">
-                            <div class="card-body-custom">
-                                <h3>Barbaridactylus</h3>
-                                <p>O maior dos nyctossaurideos, pterossauros pescadores.</p>
-                                <a class="btn-verificar" data-dino="Barbaridactylus">Verificar</a>
-                            </div>
-                        </div>
+    <h3 class="text-center mb-4"></h3>
+    
+    <div class="tier-tabs">
+        <button class="tier-btn active" data-target="tier1">Tier 1</button>
+        <button class="tier-btn" data-target="tier2">Tier 2</button>
+        <button class="tier-btn" data-target="tier3">Tier 3</button>
+        <button class="tier-btn" data-target="tier4">Tier 4</button>
+        <button class="tier-btn" data-target="tier5">Tier 5</button>
+    </div>
+
+    <div class="tier-indicator active-content" id="tier1">
+        <div class="linha-racas">
+            <div class="col-md-4" id="barba">
+    <div class="card-raca">
+        <img src="img/pict/barbamodel.png" alt="Barbaridatylus" class="img-dino">
+        <div class="card-body-custom">
+            <h3>Barbaridatylus</h3>
+            <p>Um pterossauro nyctosaurídeo distinto, conhecido por sua grande crista craniana.</p>
+            <a class="btn-verificar" data-dino="Barbaridatylus">Verificar</a>
+        </div>
+    </div>
                     </div>
+
                     <div class="col-md-4" id="coelo">
-                        <div class="card-raca">
-                            <img src="img/pict/coelomodel.png" alt="Coelophysis">
-                            <div class="card-body-custom">
-                                <h3>Coelophysis</h3>
-                                <p>Um dos terópodes mais antigos que conhecemos.</p>
-                                <a class="btn-verificar" data-dino="Coelophysis">Verificar</a>
-                            </div>
-                        </div>
+    <div class="card-raca">
+        <img src="img/pict/coelomodel.png" alt="Coelophysis" class="img-dino">
+        <div class="card-body-custom">
+            <h3>Coelophysis</h3>
+            <p>Um pequeno terópode ágil do Triássico, um dos primeiros dinossauros a surgir.</p>
+            <a class="btn-verificar" data-dino="Coelophysis">Verificar</a>
+        </div>
+    </div>
                     </div>
+
                     <div class="col-md-4" id="psitta">
-                        <div class="card-raca">
-                            <img src="img/pict/psittamodel.png" alt="Psittacosaurus">
-                            <div class="card-body-custom">
-                                <h3>Psittacosaurus</h3>
-                                <p>Um pequeno ornitísquio bípede, parente dos ceratopsianos.</p>
-                                <a class="btn-verificar" data-dino="Psittacosaurus">Verificar</a>
-                            </div>
-                        </div>
+    <div class="card-raca">
+        <img src="img/pict/psittamodel.png" alt="Psittacosaurus" class="img-dino">
+        <div class="card-body-custom">
+            <h3>Psittacosaurus</h3>
+            <p>Um pequeno ceratopsiano bípede caracterizado pelo bico semelhante ao de um papagaio.</p>
+            <a class="btn-verificar" data-dino="Psittacosaurus">Verificar</a>
+        </div>
+    </div>
                     </div>
+
                     <div class="col-md-4" id="deino">
-                        <div class="card-raca">
-                            <img src="img/pict/deinomodel.png" alt="Deinonychus">
-                            <div class="card-body-custom">
-                                <h3>Deinonychus</h3>
-                                <p>Um dromaesaurus de porte médio, com garras letais.</p>
-                                <a class="btn-verificar" data-dino="Deinonychus">Verificar</a>
-                            </div>
-                        </div>
+    <div class="card-raca">
+        <img src="img/pict/deinomodel.png" alt="Deinonychus" class="img-dino">
+        <div class="card-body-custom">
+            <h3>Deinonychus</h3>
+            <p>Um predador ágil e inteligente, famoso por sua terrível garra curva no pé.</p>
+            <a class="btn-verificar" data-dino="Deinonychus">Verificar</a>
+        </div>
+    </div>
                     </div>
+
                     <div class="col-md-4" id="guan">
-                        <div class="card-raca">
-                            <img src="img/pict/guanmodel.png" alt="Guanlong">
-                            <div class="card-body-custom">
-                                <h3>Guanlong</h3>
-                                <p>Um proceratossaurídeo, parente antigo do T. rex.</p>
-                                <a class="btn-verificar" data-dino="Guanlong">Verificar</a>
-                            </div>
-                        </div>
+    <div class="card-raca">
+        <img src="img/pict/guanmodel.png" alt="Guanlong" class="img-dino">
+        <div class="card-body-custom">
+            <h3>Guanlong</h3>
+            <p>Um ancestral primitivo dos tiranossauros, possuía uma crista ornamental na cabeça.</p>
+            <a class="btn-verificar" data-dino="Guanlong">Verificar</a>
+        </div>
+    </div>
                     </div>
-                    <div class="col-md-4" id="orni">
-                        <div class="card-raca">
-                            <img src="img/pict/ornimodel.png" alt="Ornithomimus">
-                            <div class="card-body-custom">
-                                <h3>Ornithomimus</h3>
-                                <p>Um terópode majoritariamente herbívoro, capaz de atingir grandes velocidades.</p>
-                                <a class="btn-verificar" data-dino="Ornithomimus">Verificar</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!--<div class="col-md-4" id="pachy">
-                        <div class="card-raca">
-                            <img src="img/pict/pachymodel.png" alt="Pachycephalosaurus">
-                            <div class="card-body-custom">
-                                <h3>Pachycephalosaurus</h3>
-                                <p>Um ornitischio bíbede, parente do gigante triceratops.</p>
-                                <a class="btn-verificar" data-dino="Pachycephalosaurus">Verificar</a>
-                            </div>
-                        </div>
-                    </div>!-->             
-                </div>
+
+                    <div class="col-md-4" id="ornitho">
+    <div class="card-raca">
+        <img src="img/pict/ornimodel.png" alt="Ornithomimus" class="img-dino">
+        <div class="card-body-custom">
+            <h3>Ornithomimus</h3>
+            <p>Um terópode majoritariamente herbívoro, capaz de atingir grandes velocidades.</p>
+            <a class="btn-verificar" data-dino="Ornithomimus">Verificar</a>
+        </div>
+    </div>
+        </div>
+        </div>
+    </div>
+    <div class="tier-indicator" id="tier2">
+        <div class="linha-racas">
+           <div class="col-md-4" id="quetzal">
+    <div class="card-raca">
+        <img src="img/pict/quetzalmodel.png" alt="Quetzalcoatlus" class="img-dino">
+        <div class="card-body-custom">
+            <h3>Quetzalcoatlus</h3>
+            <p>Um gigante dos céus, considerado um dos maiores animais voadores da história.</p>
+            <a class="btn-verificar" data-dino="Quetzalcoatlus">Verificar</a>
+        </div>
+    </div>
+</div>
+
+<div class="col-md-4" id="austro">
+    <div class="card-raca">
+        <img src="img/pict/austromodel.png" alt="Austroraptor" class="img-dino">
+        <div class="card-body-custom">
+            <h3>Austroraptor</h3>
+            <p>Um dromeossaurídeo de grande porte com focinho longo e dentes cônicos.</p>
+            <a class="btn-verificar" data-dino="Austroraptor">Verificar</a>
+        </div>
+    </div>
+</div>
+
+<div class="col-md-4" id="pachy">
+    <div class="card-raca">
+        <img src="img/pict/pachymodel.png" alt="Pachycephalosaurus" class="img-dino">
+        <div class="card-body-custom">
+            <h3>Pachycephalosaurus</h3>
+            <p>Herbívoro famoso por seu crânio espesso em forma de domo usado em combates.</p>
+            <a class="btn-verificar" data-dino="Pachycephalosaurus">Verificar</a>
+        </div>
+    </div>
+</div>
+
+<div class="col-md-4" id="conca">
+    <div class="card-raca">
+        <img src="img/pict/concamodel.png" alt="Concavenator" class="img-dino">
+        <div class="card-body-custom">
+            <h3>Concavenator</h3>
+            <p>Um caçador único com uma estrutura triangular elevada nas costas.</p>
+            <a class="btn-verificar" data-dino="Concavenator">Verificar</a>
+        </div>
+    </div>
+</div>
+
+<div class="col-md-4" id="dilo">
+    <div class="card-raca">
+        <img src="img/pict/dilomodel.png" alt="Dilophosaurus" class="img-dino">
+        <div class="card-body-custom">
+            <h3>Dilophosaurus</h3>
+            <p>Predador do Jurássico Inferior, reconhecido pelas duas cristas no topo da cabeça.</p>
+            <a class="btn-verificar" data-dino="Dilophosaurus">Verificar</a>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>    
+    <div class="tier-indicator" id="tier3">
+        <div class="linha-racas">
+            <h3 style="text-align:center; width:100%; color:white;">Em breve...</h3>
+        </div>
+    </div>
+    <div class="tier-indicator" id="tier4">
+        <div class="linha-racas">
+            <h3 style="text-align:center; width:100%; color:white;">Em breve...</h3>
+        </div>
+    </div>
+    <div class="tier-indicator" id="tier5">
+        <div class="linha-racas">
+            <h3 style="text-align:center; width:100%; color:white;">Em breve...</h3>
+        </div>
+    </div>
             </section>
-            
+
             <div id="myModal" class="modal">
                 <div class="modal-content dino-card-style">
                     <span class="close">&times;</span>
@@ -172,6 +250,10 @@
                     <div class="skills-container" id="actives-container"></div>
                 </div>
             </div>
+            <div id="imgModal" class="img-modal">
+              <img id="imgModalContent">
+            </div>
+
         </main>
         <footer>  
             <div class="rodape">     

@@ -63,7 +63,6 @@
     .nav-menu.active {
         display: flex;
     }
-
     
     .dropdown-menu {
         position: relative; 
@@ -76,6 +75,43 @@
     .dropdown-item {
         text-align: center;
         padding: 12px;
+    }
+    .linha-racas {
+        gap: 20px;
+    }
+    
+    .col-md-4 {
+        max-width: 100%;
+        scroll-margin-top: 110px;
+        flex: 0 1 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .tier-btn {
+        padding: 8px 15px; 
+        font-size: 0.9rem; 
+        flex: 1 1 auto;
+    }
+    
+    .tier-tabs {
+        gap: 5px; 
+    }
+}
+
+@media (max-width: 500px) {
+    .modal-content.dino-card-style {
+        width: 95%;
+        padding: 20px;
+        margin-top: 20px; 
+    }
+    
+    .stats-box {
+        gap: 15px 0;
+    }
+    
+    .dino-name {
+        font-size: 1rem;
     }
 }
 
