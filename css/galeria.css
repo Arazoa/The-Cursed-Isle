@@ -342,6 +342,32 @@
     display: block;
 }
 
+
+
+/* Estilo do novo botão de Status */
+.btn-status {
+    display: inline-block;
+    padding: 12px 18px;
+    background-color:#568281;
+    color: var(--ink); /* Usa a mesma cor de texto do tema */
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 2px solid #303030; /* Borda da cor do painel */
+    font-size: 0.9rem; /* Levemente menor que o botão principal */
+}
+
+.btn-status:hover {
+    background-color:#206e6e;
+    border: none;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(26, 59, 65, 0.582);
+    transform: scale(1.05);
+}
+
 @keyframes fadeIn {
     from { opacity: 0; transform: translateY(10px); }
     to { opacity: 1; transform: translateY(0); }

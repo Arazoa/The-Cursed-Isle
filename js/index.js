@@ -25,3 +25,24 @@ window.addEventListener("click", (e) => {
         navMenu.classList.remove("active");
     }
 });
+document.addEventListener('DOMContentLoaded', function() {
+    const searchInput = document.getElementById('searchInput');
+    
+    searchInput.addEventListener('keyup', function() {
+        const termo = searchInput.value.toLowerCase();
+        const linhas = document.querySelectorAll('tbody tr');
+
+        linhas.forEach(linha => {
+            const celulaNome = linha.querySelector('td:first-child');
+            
+            if (celulaNome) {
+                const texto = celulaNome.textContent.toLowerCase();
+                if (texto.includes(termo)) {
+                    linha.style.display = '';
+                } else {
+                    linha.style.display = 'none';
+                }
+            }
+        });
+    });
+});

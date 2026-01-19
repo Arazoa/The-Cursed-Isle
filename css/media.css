@@ -53,7 +53,7 @@
     .hamburger {
         display: flex;
         z-index: 20;
-        gap: 4px;
+        gap: 4px; 
     }
 
     td, th {
