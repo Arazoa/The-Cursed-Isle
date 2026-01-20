@@ -107,7 +107,7 @@ const dinoDatabase = {
         fullName: "BARBARIDACTYLUS<br>GRANDIS",
         image: "img/pict/barbaperfil.png",
         diet: "🥩🦈",
-        stats: { group: "-", age: 9, growth: "42 min", price: "600", skin1: "20.000", skin2: 200 },
+        stats: { group: "-", age: 9, growth: "31 min", price: "600", skin1: "20.000", skin2: 200 },
         passives: [
             { title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, seu gasto de stamina é reduzido.", icon: "img/skill/rebanhoC.png" },
             { title: "Presente das Profundezas", desc: "Seu dinossauro gasta menos stamina após se alimentar de um peixe.", icon: "img/skill/aquatico.png" }
