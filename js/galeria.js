@@ -224,7 +224,7 @@ const dinoDatabase = {
         fullName: "MEGARAPTOR<br>NAMUNHUAIQUII",
         image: "img/pict/megaperfil.png",
         diet: "🥩",
-        stats: { group: "-", age: 21, growth: "-", price: "600g", skin1: "-", skin2: "300g" },
+        stats: { group: "-", age: 21, growth: "38 min", price: "600g", skin1: "-", skin2: "300g" },
         passives: [
             { title: "Poder Acumulado", desc: "O primeiro ataque causa dano aumentado, há um tempo de recarga.", icon: "img/skill/poderacumulado.png" },
             { title: "Devorador da Noite", desc: "À noite a chance do seu dinossauro causar sangramento aumenta e o consumo de stamina diminui.", icon: "img/skill/devorador.png" }
