@@ -239,7 +239,7 @@ const dinoDatabase = {
         fullName: "CERATOSAURUS<br>NASICORNIS",
         image: "img/pict/ceratoperfil.png",
         diet: "🥩🦈",
-        stats: { group: "-", age: 7, growth: "-", price: "120k", skin1: "-", skin2: "-" },
+        stats: { group: "-", age: 7, growth: "39.4 min", price: "120k", skin1: "-", skin2: "-" },
         passives: [
             { title: "Surto de poder", desc: "Quando seu dinossauro está com pouo HP, sua defesa e chance de sangrar aumentam.", icon: "img/skill/baixohp.png" },
             { title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, sua saúde recupera mais rápido.", icon: "img/skill/rebanhoC.png" }
