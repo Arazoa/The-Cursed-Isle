@@ -62,7 +62,7 @@ const dinoDatabase = {
         fullName: "DEINONYCHUS<br>ANTIRHOPUS",
         image: "img/pict/deinoperfil.png",
         diet: "🥩🦈",
-        stats: { group: "-", age: 19, growth: "x min", price: "N/A", skin1: "6.500", skin2: 50 },
+        stats: { group: "-", age: 19, growth: "18 min", price: "N/A", skin1: "6.500", skin2: 50 },
         passives: [
             { title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, sua defesa é aumentada.", icon: "img/skill/rebanhoC.png" },
             { title: "Surto de poder", desc: "Quando seu dinossauro está com pouco HP, o dano e chance de sangramento aumentam.", icon: "img/skill/baixohp.png" }
