@@ -92,7 +92,7 @@ const dinoDatabase = {
         fullName: "GUANLONG<br>WUCAII",
         image: "img/pict/guanperfil.png",
         diet: "🥩",
-        stats: { group: "-", age: 5, growth: "x min", price: "180", skin1: "8.000", skin2: 50 },
+        stats: { group: "-", age: 5, growth: "28 min", price: "180", skin1: "8.000", skin2: 50 },
         passives: [
             { title: "Surto de poder", desc: "Quando seu dinossauro está com pouca saúde, sua defesa aumenta.", icon: "img/skill/baixohp.png" },
             { title: "Força das Trevas", desc: "Seu dinossauro gasta menos stamina à noite.", icon: "img/skill/noite.png" }
@@ -164,7 +164,7 @@ const dinoDatabase = {
         fullName: "DILOPHOSAURUS<br>WETHERILLI",
         image: "img/pict/diloperfil.png",
         diet: "🥩🦈",
-        stats: { group: "-", age: 18, growth: "-", price: "32.000", skin1: "18.000", skin2: "180g" },
+        stats: { group: "-", age: 18, growth: "28 min", price: "32.000", skin1: "18.000", skin2: "180g" },
         passives: [
             { title: "Sede de Sangue", desc: "Se você atacar um inimigo dentro de um curto período de tempo após seu ataque anterior, seu dinossauro ganhará um aumento temporário na chance de causar sangramento e velocidade de movimento.", icon: "img/skill/sedesangue.png" },
             { title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, a recuperação de stamina acelera.", icon: "img/skill/rebanhoC.png" }
@@ -224,7 +224,7 @@ const dinoDatabase = {
         fullName: "MEGARAPTOR<br>NAMUNHUAIQUII",
         image: "img/pict/megaperfil.png",
         diet: "🥩",
-        stats: { group: "-", age: 21, growth: "-", price: "600g", skin1: "-", skin2: "300g" },
+        stats: { group: "-", age: 21, growth: "38 min", price: "600g", skin1: "-", skin2: "300g" },
         passives: [
             { title: "Poder Acumulado", desc: "O primeiro ataque causa dano aumentado, há um tempo de recarga.", icon: "img/skill/poderacumulado.png" },
             { title: "Devorador da Noite", desc: "À noite a chance do seu dinossauro causar sangramento aumenta e o consumo de stamina diminui.", icon: "img/skill/devorador.png" }
@@ -239,7 +239,7 @@ const dinoDatabase = {
         fullName: "CERATOSAURUS<br>NASICORNIS",
         image: "img/pict/ceratoperfil.png",
         diet: "🥩🦈",
-        stats: { group: "-", age: 7, growth: "-", price: "120k", skin1: "-", skin2: "-" },
+        stats: { group: "-", age: 7, growth: "39 min", price: "120k", skin1: "-", skin2: "-" },
         passives: [
             { title: "Surto de poder", desc: "Quando seu dinossauro está com pouo HP, sua defesa e chance de sangrar aumentam.", icon: "img/skill/baixohp.png" },
             { title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, sua saúde recupera mais rápido.", icon: "img/skill/rebanhoC.png" }
