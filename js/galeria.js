@@ -30,7 +30,7 @@ const dinoDatabase = {
         fullName: "COELOPHYSIS<br>BAURI",
         image: "img/pict/coeloperfil.png",
         diet: "🥩",
-        stats: { group: 10, age: 5, growth: "15 min", price: "N/A", skin1: "4.000", skin2: 40 },
+        stats: { group: "10 membros", age: 5, growth: "15 min", price: "N/A", skin1: "4.000", skin2: 40 },
         passives: [
             { title: "Juntos somos fortes!", desc: "Recupera stamina mais rápido perto da matilha.", icon: "img/skill/rebanhoC.png" },
             { title: "Apetite louco", desc: "Seu dinossauo se torna mais rápido quando carega algo na boca.", icon: "img/skill/apetite.png" },
@@ -50,7 +50,7 @@ const dinoDatabase = {
         passives: [
             { title: "Instinto materno", desc: "Quando perto de seu ninho, seu dano aumenta para cada ovo nele.", icon: "img/skill/ninho.png" },
             { title: "Corredor de maratona", desc: "Quando há membros da matilha perto de você, sua recuperação de stamina se torna mais rápida.", icon: "img/skill/rebanhoH.png" },
-            { title: "Surto de poder", desc: "Quando seu dinossauro está com pouca saúde, sua defesa aumenta.", icon: "img/skill/baixohp.png" }
+            { title: "Surto de poder", desc: "Quando seu dinossauro está com pouca saúde, sua defesa aumenta.", icon: "img/skill/poucohp.png" }
         ],
         actives: [
             { title: "Incentivo", desc: "Emite um grito alto, reduzindo o consumo de vigor dos membros da matilha.", icon: "img/skill/buffS.png" },
@@ -65,7 +65,7 @@ const dinoDatabase = {
         stats: { group: "-", age: 19, growth: "18 min", price: "N/A", skin1: "6.500", skin2: 50 },
         passives: [
             { title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, sua defesa é aumentada.", icon: "img/skill/rebanhoC.png" },
-            { title: "Surto de poder", desc: "Quando seu dinossauro está com pouco HP, o dano e chance de sangramento aumentam.", icon: "img/skill/baixohp.png" }
+            { title: "Surto de poder", desc: "Quando seu dinossauro está com pouco HP, o dano e chance de sangramento aumentam.", icon: "img/skill/poucohp.png" }
         ],
         actives: [
             { title: "Grito de Guerra.", desc: "O dinossauro ruge, elevando seu moral e o da matilha, diminuindo seu consumo de vigor por um tempo.", icon: "img/skill/buffS.png" },
@@ -80,7 +80,7 @@ const dinoDatabase = {
         stats: { group: "-", age: 3, growth: "28 min", price: "8.000", skin1: "6.000", skin2: 80 },
         passives: [
             { title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, sua defesa é aumentada.", icon: "img/skill/rebanhoH.png" },
-            { title: "Surto de poder", desc: "Quando seu dinossauro está com pouco HP, a velociade e chance de quebrar aumentam.", icon: "img/skill/poucohppachy.png" }
+            { title: "Surto de poder", desc: "Quando seu dinossauro está com pouco HP, a velociade e chance de quebrar aumentam.", icon: "img/skill/poucohpP.png" }
         ],
         actives: [
             { title: "Bater", desc: "O dinossauro avança, aumentando sua velocidade a cada segundo, ao atingir um inimigo causa dano aumentado, tem chance de infligir fratura. Pode repelir e atordoar inimigos, o dano aumenta de acordo com a distância e velocidade. ", icon: "img/skill/investida.png" },
@@ -94,7 +94,7 @@ const dinoDatabase = {
         diet: "🥩",
         stats: { group: "-", age: 5, growth: "28 min", price: "180", skin1: "8.000", skin2: 50 },
         passives: [
-            { title: "Surto de poder", desc: "Quando seu dinossauro está com pouca saúde, sua defesa aumenta.", icon: "img/skill/baixohp.png" },
+            { title: "Surto de poder", desc: "Quando seu dinossauro está com pouca saúde, sua defesa aumenta.", icon: "img/skill/poucohp.png" },
             { title: "Força das Trevas", desc: "Seu dinossauro gasta menos stamina à noite.", icon: "img/skill/noite.png" }
         ],
         actives: [
@@ -123,7 +123,7 @@ const dinoDatabase = {
         diet: "🌿",
         stats: { group: "-", age: 14, growth: "20 min", price: "5.000", skin1: "-", skin2: "-" },
         passives: [
-            { title: "Surto de poder", desc: "Quando seu dinossauro está com pouca saúde, ele gasta menos stamina e sua velocidade aumenta.", icon: "img/skill/baixohp.png" },
+            { title: "Surto de poder", desc: "Quando seu dinossauro está com pouca saúde, ele gasta menos stamina e sua velocidade aumenta.", icon: "img/skill/poucohp.png" },
             { title: "Instinto materno", desc: "Quando perto de seu ninho, seu dano aumenta para cada ovo nele.", icon: "img/skill/ninho.png" }
         ],
         actives: [
@@ -138,7 +138,7 @@ const dinoDatabase = {
         stats: { group: "-", age: 10, growth: "41 min", price: "125.000", skin1: "-", skin2: "-" },
         passives: [
             { title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, seu dano é aumentado.", icon: "img/skill/rebanhoC.png" },
-            { title: "Surto de poder", desc: "Quando seu dinossauro está com pouco HP, seu consumo de stamina diminui e sua velocidade aumenta.", icon: "img/skill/baixohp.png" }
+            { title: "Surto de poder", desc: "Quando seu dinossauro está com pouco HP, seu consumo de stamina diminui e sua velocidade aumenta.", icon: "img/skill/poucohp.png" }
         ],
         actives: [
             { title: "Capturar", desc: "Seu dinossauro agarra uma presa com o bico podendo levá-lo consigo, gastando stamina para tal. Funciona apenas com animais menores.", icon: "img/skill/capturar.png" }
@@ -169,8 +169,8 @@ const dinoDatabase = {
         diet: "🥩🦈",
         stats: { group: "-", age: 18, growth: "28 min", price: "32.000", skin1: "18.000", skin2: "180g" },
         passives: [
-            { title: "Sede de Sangue", desc: "Se você atacar um inimigo dentro de um curto período de tempo após seu ataque anterior, seu dinossauro ganhará um aumento temporário na chance de causar sangramento e velocidade de movimento.", icon: "img/skill/sedesangue.png" },
-            { title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, a recuperação de stamina acelera.", icon: "img/skill/rebanhoC.png" }
+            { title: "Sede de Sangue", desc: "Se você atacar um inimigo dentro de um curto período de tempo após seu ataque anterior, seu dinossauro ganhará um aumento temporário na chance de causar sangramento e velocidade de movimento (+6% velocidade, +4.5% chance de sangramento).", icon: "img/skill/sedesangue.png" },
+            { title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, a recuperação de stamina acelera (Até +28% recuperação de stamina).", icon: "img/skill/rebanhoC.png" }
         ],
         actives: [
             { title: "Arranhão", desc: "Ataque com as garras, tem maior chance de causar sangramento, mas causando menos dano.", icon: "img/skill/garras.png" },
@@ -213,7 +213,7 @@ const dinoDatabase = {
         diet: "🌿",
         stats: { group: "-", age: 3, growth: "39 min", price: "30k", skin1: "12k", skin2: "120g" },
         passives: [
-            { title: "Surto de poder", desc: "Quando seu dinossauro tem pouca vida, o consumo de vigor diminui e a velocidade de movimento aumenta.", icon: "img/skill/baixohp.png" },
+            { title: "Surto de poder", desc: "Quando seu dinossauro tem pouca vida, o consumo de vigor diminui e a velocidade de movimento aumenta.", icon: "img/skill/poucohp.png" },
             { title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, sua chance de causar sangramento aumenta.", icon: "img/skill/rebanhoH.png" },
             { title: "Instinto Primordial", desc: "Se seu dinossauro estiver sangrando, seus ataques têm maior probabilidade de causar sangramento.", icon: "img/skill/instintoprimordial.png" }
         ],
@@ -244,7 +244,7 @@ const dinoDatabase = {
         diet: "🥩🦈",
         stats: { group: "-", age: 7, growth: "39 min", price: "120k", skin1: "-", skin2: "-" },
         passives: [
-            { title: "Surto de poder", desc: "Quando seu dinossauro está com pouo HP, sua defesa e chance de sangrar aumentam.", icon: "img/skill/baixohp.png" },
+            { title: "Surto de poder", desc: "Quando seu dinossauro está com pouo HP, sua defesa e chance de sangrar aumentam.", icon: "img/skill/poucohp.png" },
             { title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, sua saúde recupera mais rápido.", icon: "img/skill/rebanhoC.png" }
         ],
         actives: [
@@ -289,8 +289,8 @@ const dinoDatabase = {
         stats: { group: "-", age: 7, growth: "-", price: "650g", skin1: "-", skin2: "-" },
         passives: [
             { title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, resistência recupera mais rápido.", icon: "img/skill/rebanhoC.png" },
-            { title: "Bom Sono", desc: "Quando seu dinossauro gasta menos energia enquanto o cansaço esetiver acima de 79%.", icon: "img/skill/sono.png" },
-            { title: "Instinto Primordial", desc: "Se seu dinossauro estiver sangrando, seus ataques têm maior probabilidade de causar sangramento.", icon: "img/skill/instintoprimordial.png" }
+            { title: "Bom Sono", desc: "Quando seu dinossauro gasta menos stamina enquanto o cansaço estiver acima de 79%. (-15% gasto de stamina)", icon: "img/skill/sono.png" },
+            { title: "Instinto Primordial", desc: "Se seu dinossauro estiver sangrando, seus ataques têm maior probabilidade de causar sangramento (+9% sangramento).", icon: "img/skill/instintoprimordial.png" }
         ],
         actives: [
             { title: "Ataque Carregado", desc: "Seu dinossauro prepara um ataque poderoso, desferindo-o em poucos segundos, aumenta a chance de infligir sangramento.", icon: "img/skill/carregada.png" }
@@ -318,7 +318,7 @@ const dinoDatabase = {
         diet: "🌿",
         stats: { group: "-", age: 6, growth: "31 min", price: "20.5k", skin1: "-", skin2: "-" },
         passives: [ 
-            { title: "O poder do bando", desc: "Quando os membros de sua matilha estão perto de você, sua defesa é aumentada.", icon: "img/skill/.png" },
+            { title: "O poder do bando", desc: "Quando os membros de sua matilha estão perto de você, sua defesa é aumentada.", icon: "img/skill/poucohp.png" },
             { title: "Surto de poder", desc: "Quando seu dinossauro está com pouco HP seu consumo de stamina diminui e a velocidade aumenta.", icon: "img/skill/rebanhoH.png" }
         ],
         actives: [
@@ -332,10 +332,11 @@ const dinoDatabase = {
         diet: "🌿",
         stats: { group: "-", age: 1, growth: "39 min", price: "35k", skin1: "-", skin2: "-" },
         passives: [
-            {title: "", desc: "", icon: "img/skill/tarchia.png" }
+            {title: "Surto de poder", desc: "Quando seu dinossauro está com HP baixo, seu dano e chance de fraturar aumentam. (+15% dano, +7,5% fratura)", icon: "img/skill/poucohp.png" }
         ],
         actives: [
-        { title: "Ataque Carregado", desc: "Seu dinossauro prepara um ataque poderoso, desferindo-o em poucos segundos, aumenta a chance de infligir fratura, pode causarpode causar repulsão e atordoamento.", icon: "img/skill/tarchiaC.png" }
+        { title: "Ataque Carregado", desc: "Seu dinossauro prepara um ataque poderoso, desferindo-o em poucos segundos, aumenta a chance de infligir fratura, pode causar repulsão e atordoamento.", icon: "img/skill/carregadaT.png" },
+        { title: "Armadura Resistente", desc: "Seu dinossauro chacoalha o corpo por alguns segundos, após isso, ganha defesa e perde velocidade. (+30% defesa, -12% velocidade)", icon: "img/skill/defesa.png"}
         ]
     },
     "Parasaurolophus":{
@@ -391,7 +392,7 @@ const dinoDatabase = {
         passives: [
             {
                 title: "Surto de poder", 
-                desc: "Quando um dinossauro está com pouca vida, seu dano e chance de sangrar aumentam.", 
+                desc: "quando seu dinossauro está com pouca vida, seu dano e chance de sangrar aumentam.", 
                 icon: "img/skill/poucohp.png" 
             },
             {
@@ -508,9 +509,20 @@ const dinoDatabase = {
                 desc: "Quando os membros da matilha estão perto de você, sua chance de causar fratura aumenta.", 
                 icon: "img/skill/rebanho.png" 
             },
+            ,
+            {
+                title: "Presente das Profundezas",
+                desc: "Seu dinossauro gasta menos stamina após se alimentar de um peixe.",
+                icon: "img/skill/aquatico.png"
+            },
+            {
+                title: "Surto de poder", 
+                desc: "Quando seu dinossauro está com pouco HP, sua defesa aumenta.", 
+                icon: "img/skill/enativo.png" 
+            },
             {
                 title: "Elemento nativo", 
-                desc: "Quando um dinossauro nada, sua defesa aumenta.", 
+                desc: "quando seu dinossauro nada, sua defesa aumenta.", 
                 icon: "img/skill/enativo.png" 
             }
         ],
@@ -559,7 +571,7 @@ const dinoDatabase = {
             {
                 title: "Presente das Profundezas",
                 desc: "Seu dinossauro gasta menos stamina após se alimentar de um peixe.",
-                 icon: "img/skill/aquatico.png"
+                icon: "img/skill/aquatico.png"
             }
     ],
     actives: [
@@ -589,12 +601,12 @@ const dinoDatabase = {
     diet: "🥩",
     stats: { group: "3 membros", age: 7, growth: "48 min", price: "140k", skin1: "40k", skin2: "300g" },
     passives: [
-       { title: "Sede de Sangue", desc: "Se você atacar um inimigo dentro de um curto período de tempo após seu ataque anterior, seu dinossauro ganhará um aumento temporário na chance de causar sangramento e velocidade de movimento.", icon: "img/skill/sedesangue.png" },
-        { title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, sua defesa aumenta.", icon: "img/skill/rebanho.png" },
-        { title: "Surto de poder", desc: "Quando seu dinossauro está com pouco HP, o dano e chance de sangrar aumentam.", icon: "img/skill/poucohp.png" }
+        { title: "Sede de Sangue", desc: "Se você atacar um inimigo dentro de um curto período de tempo após seu ataque anterior, seu dinossauro ganhará um aumento temporário na chance de causar sangramento. (até +4% chance de sangramento)", icon: "img/skill/sedesangue.png" },
+        { title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, sua defesa aumenta (+7% defesa).", icon: "img/skill/rebanho.png" },
+        { title: "Surto de poder", desc: "Quando seu dinossauro está com pouco HP, o dano e chance de sangrar aumentam(+10% dano, +8,5% chance de sangramento).", icon: "img/skill/poucohp.png" }
     ],
     actives: [
-       { title: "Ataque Carregado", desc: "Seu dinossauro prepara um ataque poderoso, desferindo-o em poucos segundos, aumenta a chance de infligir sangramento e fratura, podendo repelir e atordoar inimigos.", icon: "img/skill/carregada.png" },
+        { title: "Ataque Carregado", desc: "Seu dinossauro prepara um ataque poderoso, desferindo-o em poucos segundos, aumenta a chance de infligir sangramento e fratura, podendo repelir e atordoar inimigos.", icon: "img/skill/carregada.png" },
         { title: "Terremoto", desc: "Seu dinossauro pisa o chão com força, causando dano em área. Pode atordoar e repelir outros dinossauros.", icon: "img/skill/terremoto.png" }
     ]
     },
@@ -605,10 +617,10 @@ const dinoDatabase = {
     diet: "🥩",
     stats: { group: "3 membros", age: 8, growth: "56 min", price: "800g", skin1: "40k", skin2: "450g" },
     passives: [
-        { title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, seu gasto de stamina é reduzido.", icon: "img/skill/rebanho.png" }
+        { title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, seu gasto de stamina é reduzido (-10% gasto de stamina).", icon: "img/skill/rebanho.png" }
     ],
     actives: [
-        { title: "Rugido Aterrorizante", desc: "Seu dinossauro ruge a defesa de inimigos próximos.", icon: "img/skill/rugidoR.png" },
+        { title: "Rugido Aterrorizante", desc: "Seu dinossauro ruge a defesa de inimigos próximos (-20% defesa inimiga).", icon: "img/skill/rugidoR.png" },
         { title: "Crânio de Ferro", desc: "O dinossauro golpeia com a cabeça, causando dano aumentado e podendo atordoar e repelir os dinossauros.", icon: "img/skill/cabecada.png" }
     ]
     }
