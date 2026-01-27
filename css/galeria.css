@@ -248,7 +248,7 @@
     padding: 4px;
     object-fit: contain;
     flex-shrink: 0;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.4);
 }
 
 .skill-text {
@@ -342,22 +342,20 @@
     display: block;
 }
 
-
-
 /* Estilo do novo botão de Status */
 .btn-status {
     display: inline-block;
     padding: 12px 18px;
     background-color:#568281;
-    color: var(--ink); /* Usa a mesma cor de texto do tema */
+    color: var(--ink); 
     font-weight: 700;
     text-transform: uppercase;
     text-decoration: none;
     border-radius: 6px;
     cursor: pointer;
     transition: all 0.3s ease;
-    border: 2px solid #303030; /* Borda da cor do painel */
-    font-size: 0.9rem; /* Levemente menor que o botão principal */
+    border: 2px solid #303030; 
+    font-size: 0.9rem; 
 }
 
 .btn-status:hover {
