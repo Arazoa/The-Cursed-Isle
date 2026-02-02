@@ -38,7 +38,7 @@ const dinoDatabase = {
         ],
         actives: [
             { title: "Troféu de carne", desc: "O dinossauro usa um golpe forte, retirando um pedaço de carne caso atinja outro.", icon: "img/skill/trofeu.png" },
-            { title: "Grito de guerra", desc: "O dinossauro grita, aumentando o seu dano em 20%.", icon: "img/skill/buffD.png" }
+            { title: "Grito de guerra", desc: "O dinossauro grita, aumentando o seu dano em 20%.", icon: "img/skill/buffS.png" }
         ]
     },
     "Ornithomimus": {
@@ -95,10 +95,10 @@ const dinoDatabase = {
         stats: { group: "-", age: 5, growth: "28 min", price: "180", skin1: "8.000", skin2: 50 },
         passives: [
             { title: "Poder do bando", desc: "Quando os membros da matilha estão perto de você, sua defesa aumenta.", icon: "img/skill/rebanho.png" },
-            { title: "Força das Trevas", desc: "Seu dinossauro gasta menos stamina à noite (-20% gasto de stamina).", icon: "img/skill/noite.png" }
+            { title: "Força das Trevas", desc: "Seu dinossauro gasta menos stamina à noite (-20% gasto de stamina).", icon: "img/skill/hora.png" }
         ],
         actives: [
-            { title: "Grito de Guerra", desc: "Seu dinossauro ruge, aumentando a chance de infligir sangramento por um tempo (+15% chance de sangramento).", icon: "img/skill/buffG.png" },
+            { title: "Grito de Guerra", desc: "Seu dinossauro ruge, aumentando a chance de infligir sangramento por um tempo (+15% chance de sangramento).", icon: "img/skill/sangra.png" },
             { title: "Ataque Carregado", desc: "O dinossauro prepara um ataque poderoso, desferindo-o em poucos segundos, aumenta a chance de infligir sangramento.", icon: "img/skill/carregada.png" }
         ]
     },
@@ -113,7 +113,7 @@ const dinoDatabase = {
             { title: "Presente das Profundezas", desc: "Seu dinossauro gasta menos stamina após se alimentar de um peixe.", icon: "img/skill/aquatico.png" }
         ],
         actives: [
-            { title: "Enxame Barulhento", desc: "O pterossauro emite um grito estridente, aumentando a sua capacidade de infligir sangramento, e a de aliados próximos, por um curto período.", icon: "skill/buffG.png" }
+            { title: "Enxame Barulhento", desc: "O pterossauro emite um grito estridente, aumentando a sua capacidade de infligir sangramento, e a de aliados próximos, por um curto período.", icon: "skill/sangra.png" }
         ]
     },
     "Psittacosaurus": {
@@ -157,7 +157,7 @@ const dinoDatabase = {
             { title: "Frescor Marinho", desc: "Ao sair da água, sua velocidade de movimento e nado aumentam.", icon: "img/skill/enativo"}
         ],
         actives: [
-            { title: "Ataque do céu", desc: "Salta rapidamente, atacando o inimigo, há chances de reduzir sua defesa.", icon: "img/skill/ataqueceu.png" },
+            { title: "Ataque do céu", desc: "Salta rapidamente, atacando o inimigo, há chances de reduzir sua defesa.", icon: "img/skill/mordida.png" },
             { title: "Disparada", desc: "Salte para alcançar o inimigo ou escapar velozmente.", icon: "img/skill/dash.png" }
            
         ]
@@ -188,7 +188,7 @@ const dinoDatabase = {
             { title: "Surto de poder", desc: "Quando seu dinossauro está com pouco HP, seu dano aumenta e o consumo de stamina é reduzido.", icon: "img/skill/poucohp.png" }
         ],
         actives: [
-            { title: "Golpe Esmagador", desc: "O dinossauro causa um golpe devastador com dano aumentado.", icon: "img/skill/gmortal.png" }
+            { title: "Golpe Esmagador", desc: "O dinossauro causa um golpe devastador com dano aumentado.", icon: "img/skill/mordida.png" }
         ]
     },
     "Fasolasuchus": {
@@ -198,8 +198,8 @@ const dinoDatabase = {
         diet: "🥩",
         stats: { group: "Tier 3", age: 15, growth: "29 min", price: "500g", skin1: "-", skin2: "-" },
         passives: [
-            { title: "Surto de poder", desc: "Quando seu pseudosuchio está com baixo HP, o consumo de stamina diminui e a velocidade de movimento aumenta.", icon: "img/skill/poucohp.png" },
-            { title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, sua chance de causar uma fratura aumenta.", icon: "img/skill/rebanho.png" }
+            { title: "Surto de poder", desc: "Quando seu pseudosuchio está com baixo HP, o consumo de stamina diminui e a velocidade de movimento aumenta (+5% velocidade, -25% consumo de stamina).", icon: "img/skill/poucohp.png" },
+            { title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, sua chance de causar uma fratura aumenta (até 3 vezes: +1% chance de fratura).", icon: "img/skill/rebanho.png" }
         ],
         actives: [
             { title: "Capturar", desc: "Seu dinossauro agarra uma presa com o boca podendo levá-lo consigo, gastando stamina para tal. Funciona apenas com animais menores", icon: "img/skill/capturarf.png" },
@@ -215,11 +215,11 @@ const dinoDatabase = {
         passives: [
             { title: "Surto de poder", desc: "Quando seu dinossauro tem pouca vida, o consumo de vigor diminui e a velocidade de movimento aumenta.", icon: "img/skill/poucohp.png" },
             { title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, sua chance de causar sangramento aumenta.", icon: "img/skill/rebanhoH.png" },
-            { title: "Instinto Primordial", desc: "Se seu dinossauro estiver sangrando, seus ataques têm maior probabilidade de causar sangramento.", icon: "img/skill/instintoprimordial.png" }
+            { title: "Instinto Primordial", desc: "Se seu dinossauro estiver sangrando, seus ataques têm maior probabilidade de causar sangramento.", icon: "img/skill/instintop.png" }
         ],
         actives: [
-            { title: "Chuva de Golpes", desc: "Faz várias batidas de cauda. O ataque pode causar dano várias vezes ao mesmo alvo.", icon: "img/skill/chuvagolpes.png" },
-            { title: "Armadura", desc: "O dinossauro se levanta, ganha força e então cai bruscamente. Suas placas se movem, aumentando temporariamente a defesa.", icon: "img/skill/armadura.png" }
+            { title: "Chuva de Golpes", desc: "Faz várias batidas de cauda. O ataque pode causar dano várias vezes ao mesmo alvo.", icon: "img/skill/tago.png" },
+            { title: "Armadura", desc: "O dinossauro se levanta, ganha força e então cai bruscamente. Suas placas se movem, aumentando temporariamente a defesa.", icon: "img/skill/defesa.png" }
         ]
     },
     "Megaraptor": {
@@ -229,11 +229,12 @@ const dinoDatabase = {
         diet: "🥩",
         stats: { group: "-", age: 21, growth: "38 min", price: "600g", skin1: "-", skin2: "300g" },
         passives: [
-            { title: "Poder Acumulado", desc: "O primeiro ataque causa dano aumentado, há um tempo de recarga.", icon: "img/skill/poderacumulado.png" },
-            { title: "Devorador da Noite", desc: "À noite a chance do seu dinossauro causar sangramento aumenta e o consumo de stamina diminui.", icon: "img/skill/devorador.png" }
+            { title: "Poder Acumulado", desc: "O primeiro ataque causa dano aumentado, há um tempo de recarga (+30% dano).", icon: "img/skill/poderacumulado.png" },
+            { title: "Devorador da Noite", desc: "À noite a chance do seu dinossauro causar sangramento aumenta e o consumo de stamina diminui.", icon: "img/skill/devorador.png" },
+             { title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, seu gasto de stamina é reduzido.", icon: "img/skill/rebanho.png" }
         ],
         actives: [
-            { title: "Rugido Aterrorizante", desc: "Você solta um rugido aterrorizante, fazendo com que os dinossauros próximos fiquem com medo e percam o conforto.", icon: "img/skill/rugidomedo.png" },
+            { title: "Rugido Aterrorizante", desc: "Você solta um rugido aterrorizante, fazendo com que os dinossauros próximos fiquem com medo e percam o conforto.", icon: "img/skill/rugido.png" },
             { title: "Garras Afiadas", desc: "O dinossauro faz dois movimentos com suas garras. O ataque pode causar dano em ambas as vezes ao mesmo alvo.", icon: "img/skill/garras.png" }
         ]
     },
@@ -290,7 +291,7 @@ const dinoDatabase = {
         passives: [
             { title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, resistência recupera mais rápido.", icon: "img/skill/rebanho.png" },
             { title: "Bom Sono", desc: "Quando seu dinossauro gasta menos stamina enquanto o cansaço estiver acima de 79%. (-15% gasto de stamina)", icon: "img/skill/sono.png" },
-            { title: "Instinto Primordial", desc: "Se seu dinossauro estiver sangrando, seus ataques têm maior probabilidade de causar sangramento (+9% sangramento).", icon: "img/skill/instintoprimordial.png" }
+            { title: "Instinto Primordial", desc: "Se seu dinossauro estiver sangrando, seus ataques têm maior probabilidade de causar sangramento (+9% sangramento).", icon: "img/skill/instintop.png" }
         ],
         actives: [
             { title: "Ataque Carregado", desc: "Seu dinossauro prepara um ataque poderoso, desferindo-o em poucos segundos, aumenta a chance de infligir sangramento.", icon: "img/skill/carregada.png" }
@@ -303,12 +304,12 @@ const dinoDatabase = {
         diet: "🌿",
         stats: { group: "Tier 3", age: 17, growth: "39 min", price: "55k", skin1: "25k", skin2: "250g" },
         passives: [
-            { title: "Fúria com Chifres", desc: "Quando seu dinossauro está com pouco HP, seu consumo de stamina é reduzido e sua chance de sangrar aumenta.", icon: "img/skill/poucohpG.png" },
+            { title: "Fúria com Chifres", desc: "Quando seu dinossauro está com pouco HP, seu consumo de stamina é reduzido e sua chance de sangrar aumenta.", icon: "img/skill/sangra.png" },
             { title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, sua defesa é aumentada.", icon: "img/skill/rebanhoH.png" }
         ],
         actives: [
-            { title: "Chute", desc: "Seu dinossauro ataca com as patas traseiras causando dano adicional, tem chance de atordoar e repele alguns dinossauros.", icon: "img/skill/chute.png" },
-            { title: "Golpe Esmagador", desc: "O dinossauro golpeia com seu chifre, causa dano aumentado, podendo atordoar e repelir os dinossauros", icon: "img/skill/cranioferro.png" }
+            { title: "Chute", desc: "Seu dinossauro ataca com as patas traseiras causando dano adicional, tem chance de atordoar e repele alguns dinossauros.", icon: "img/skill/coice.png" },
+            { title: "Golpe Esmagador", desc: "O dinossauro golpeia com seu chifre, causa dano aumentado, podendo atordoar e repelir os dinossauros", icon: "img/skill/cranio.png" }
         ]
     },
     "Plateosaurus": {
@@ -349,8 +350,8 @@ const dinoDatabase = {
         {title: "Surto de poder", desc: "Quando seu dinossauro tem pouco HP, o consumo de stamina é reduzido e a velocidade de movimento aumenta (-20% consumo de stamina, +5% velocidade).", icon: "img/skill/poucohp.png" }
     ],
     actives: [
-        { title: "Chute", desc: "Ataca com as patas traseiras, causando dano adicional e tendo chance de atordoar e repelir certos dinossauros. Não pode ser usada enquanto estiver correndo.", icon: "img/skill/chute.png" },
-        { title: "Um rugido aterrorizante", desc: "Solta um rugido que causa medo nos dinossauros, reduzindo sua defesa.", icon: "img/skill/rugidoH.png" }
+        { title: "Chute", desc: "Ataca com as patas traseiras, causando dano adicional e tendo chance de atordoar e repelir certos dinossauros. Não pode ser usada enquanto estiver correndo.", icon: "img/skill/coice.png" },
+        { title: "Um rugido aterrorizante", desc: "Solta um rugido que causa medo nos dinossauros, reduzindo sua defesa.", icon: "img/skill/rugido.png" }
     ]
     },
     "Pachyrhinosaurus":{
@@ -365,7 +366,7 @@ const dinoDatabase = {
         ],
         actives: [
             { title: "Bater", desc: "O dinossauro avança, aumentando sua velocidade a cada segundo, ao atingir um inimigo causa dano aumentado, tem chance de infligir fratura. Pode repelir e atordoar inimigos, o dano aumenta de acordo com a distância e velocidade.", icon: "img/skill/investida.png" },
-            { title: "Terremoto", desc: "O dinossauro levanta as patas dianteiras, acumulando energia, e então as bate com força no chão. O golpe causa dano em área, com chance de atordoar e empurrar inimigos.", icon: "img/skill/terremoto.png" }
+            { title: "Terremoto", desc: "O dinossauro levanta as patas dianteiras, acumulando energia, e então as bate com força no chão. O golpe causa dano em área, com chance de atordoar e empurrar inimigos.", icon: "img/skill/terra.png" }
         ]
     },
     "Stegosaurus":{
@@ -373,14 +374,14 @@ const dinoDatabase = {
         fullName: "STEGOSAURUS<br>UNGULATUS",
         image: "img/pict/stegoperfil.png",
         diet: "🌿",
-        stats: { group: "-", age: 22, growth: "40 min", price: "100k", skin1: "-", skin2: "-" },
+        stats: { group: "-", age: 22, growth: "40 min", price: "80k", skin1: "-", skin2: "-" },
         passives: [
             { title: "O poder do bando", desc: "Quando os membros da matilha estão perto de você, sua chance de causar sangramento aumenta.", icon: "img/skill/rebanhoH.png" },
-            { title: "Energia solar", desc: "Durante o dia, seu dinossauro consome menos stamina.", icon: "img/skill/solar.png" }
+            { title: "Energia solar", desc: "Durante o dia, seu dinossauro consome menos stamina.", icon: "img/skill/hora.png" }
         ],
         actives: [
-            { title: "Ataque Carregado", desc: "Seu dinossauro prepara um ataque poderoso, desferindo três movimentos de cauda em poucos segundos, aumenta a chance de infligir fratura e sangramento, pode causar atordoamento.", icon: "img/skill/stego_carregado.png" },
-            { title: "Golpe Esmagador", desc: "Seu dinossauro causa um golpe devastador com dano aumentado, pode atordoar inimigos.", icon: "img/skill/esmagador.png" }
+            { title: "Ataque Carregado", desc: "Seu dinossauro prepara um ataque poderoso, desferindo três movimentos de cauda em poucos segundos, aumenta a chance de infligir fratura e sangramento, pode causar atordoamento.", icon: "img/skill/tago.png" },
+            { title: "Golpe Esmagador", desc: "Seu dinossauro causa um golpe devastador com dano aumentado, pode atordoar inimigos.", icon: "img/skill/esmaga.png" }
         ]
     },
     "Therizinosaurus":{
@@ -518,7 +519,7 @@ const dinoDatabase = {
             {
                 title: "Surto de poder", 
                 desc: "Quando seu dinossauro está com pouco HP, sua defesa aumenta.", 
-                icon: "img/skill/enativo.png" 
+                icon: "img/skill/poucohp.png" 
             },
             {
                 title: "Elemento nativo", 
@@ -535,7 +536,7 @@ const dinoDatabase = {
             { 
                 title: "Mordida Mortal", 
                 desc: "Uma mordida poderosa que drena o oxigênio e a resistência do inimigo.", 
-                icon: "img/skill/gmortal.png" 
+                icon: "img/skill/mordida.png" 
             }
         ]
     },
@@ -575,7 +576,7 @@ const dinoDatabase = {
             }
     ],
     actives: [
-        { title: "Estrondo do Lagarto", desc: "O dinossauro ruge aumentando temporariamente sua defesa e velocidade de movimento.", icon: "img/skill/rugido.png" },
+        { title: "Estrondo do Lagarto", desc: "O dinossauro ruge aumentando temporariamente sua defesa e velocidade de movimento.", icon: "img/skill/buffS.png" },
         { title: "Ataque Carregado", desc: "Seu dinossauro prepara um ataque poderoso, desferindo-o em poucos segundos, aumenta a chance de infligir sangramento e fratura.", icon: "img/skill/carregada.png" }
     ]
     },
@@ -591,7 +592,7 @@ const dinoDatabase = {
     ],
     actives: [
         { title: "Bater", desc: "O dinossauro avança, aumentando sua velocidade a cada segundo, ao atingir um inimigo causa dano aumentado, tem chance de infligir fratura e sangramento. Pode repelir e atordoar inimigos, o dano aumenta de acordo com a distância e velocidade.", icon: "img/skill/investida.png" },
-        { title: "Golpe Esmagador", desc: "O dinossauro dá um golpe devastador com dano aumentado, pode atordoar e repelir os dinossauros.", icon: "img/skill/trikeatk.png" }
+        { title: "Golpe Esmagador", desc: "O dinossauro dá um golpe devastador com dano aumentado, pode atordoar e repelir os dinossauros.", icon: "img/skill/cranio.png" }
     ]
     },
     "Giganotosaurus": {
@@ -607,7 +608,7 @@ const dinoDatabase = {
     ],
     actives: [
         { title: "Ataque Carregado", desc: "Seu dinossauro prepara um ataque poderoso, desferindo-o em poucos segundos, aumenta a chance de infligir sangramento e fratura, podendo repelir e atordoar inimigos.", icon: "img/skill/carregada.png" },
-        { title: "Terremoto", desc: "Seu dinossauro pisa o chão com força, causando dano em área. Pode atordoar e repelir outros dinossauros.", icon: "img/skill/terremoto.png" }
+        { title: "Terremoto", desc: "Seu dinossauro pisa o chão com força, causando dano em área. Pode atordoar e repelir outros dinossauros.", icon: "img/skill/terra.png" }
     ]
     },
     "Tyrannosaurus": {
@@ -621,7 +622,7 @@ const dinoDatabase = {
     ],
     actives: [
         { title: "Rugido Aterrorizante", desc: "Seu dinossauro ruge a defesa de inimigos próximos (-20% defesa inimiga).", icon: "img/skill/rugidoR.png" },
-        { title: "Crânio de Ferro", desc: "O dinossauro golpeia com a cabeça, causando dano aumentado e podendo atordoar e repelir os dinossauros.", icon: "img/skill/cabecada.png" }
+        { title: "Crânio de Ferro", desc: "O dinossauro golpeia com a cabeça, causando dano aumentado e podendo atordoar e repelir os dinossauros.", icon: "img/skill/cranio.png" }
     ]
     }
 };

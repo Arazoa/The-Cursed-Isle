@@ -243,7 +243,7 @@
     width: 42px;
     height: 42px;
     border-radius: 50%;
-    background-color: #2eb8b8; 
+    background: radial-gradient(circle, #58cece 35%, #165c5c 80%);
     border: 2px solid #1F3A3A;
     padding: 4px;
     object-fit: contain;
