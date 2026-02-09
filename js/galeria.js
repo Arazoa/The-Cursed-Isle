@@ -91,7 +91,7 @@ const dinoDatabase = {
         idStatus: "guan",
         fullName: "GUANLONG<br>WUCAII",
         image: "img/pict/guanperfil.png",
-        diet: "🥩",
+        diet: "🥩🦈",
         stats: { group: "-", age: 5, growth: "28 min", price: "180", skin1: "8.000", skin2: 50 },
         passives: [
             { title: "Poder do bando", desc: "Quando os membros da matilha estão perto de você, sua defesa aumenta.", icon: "img/skill/rebanho.png" },
