@@ -41,6 +41,22 @@ const dinoDatabase = {
             { title: "Grito de guerra", desc: "O dinossauro grita, aumentando o seu dano em 20%.", icon: "img/skill/buffS.png" }
         ]
     },
+     "Changyuraptor": {
+        idStatus: "chang",
+        fullName: "CHANGYURAPTOR<br>YANGI",
+        image: "img/pict/changperfil.png",
+        diet: "🥩🦈",
+        stats: { group: "- membros", age: 1, growth: "- min", price: "-", skin1: "-", skin2: "-" },
+        passives: [ 
+            { title: "Parkour", desc: "Capaz de escalar, ao precionar salto próximo a uma superfície adequada.", icon: "img/skill/park.png" },  
+            { title: "Vento sob as asas", desc: "Quando no ar, precione o botão de salto para planar.", icon: "img/skill/planar.png" },      
+            { title: "Escalador", desc: "Quando no ar, precione o botão de salto para tentar prender-se a uma superfície.", icon: "img/skill/prender.png" },  
+            { title: "Juntos somos fortes!", desc: "Quando os membros da matilha estão perto de você, seu consumo de vigor é reduzido.", icon: "img/skill/rebanho.png" },
+            { title: "Força das Trevas", desc: "Seu dinossauro gasta menos stamina à noite (-20% gasto de stamina).", icon: "img/skill/hora.png" }
+        ],
+        actives: [
+        ]
+    },
     "Ornithomimus": {
         idStatus: "ornitho",
         fullName: "ORNITHOMIMUS<br>VELOX",
@@ -50,7 +66,7 @@ const dinoDatabase = {
         passives: [
             { title: "Instinto materno", desc: "Quando perto de seu ninho, seu dano aumenta para cada ovo nele.", icon: "img/skill/ninho.png" },
             { title: "Corredor de maratona", desc: "Quando há membros da matilha perto de você, sua recuperação de stamina se torna mais rápida.", icon: "img/skill/rebanhoH.png" },
-            { title: "Surto de poder", desc: "Quando seu dinossauro está com pouca saúde, sua defesa aumenta.", icon: "img/skill/poucohp.png" }
+            { title: "Surto de poder", desc: "Quando seu dinossauro está com pouca saúde, sua defesa aumenta.", icon: "img/skill/poucohp.png" },
         ],
         actives: [
             { title: "Incentivo", desc: "Emite um grito alto, reduzindo o consumo de vigor dos membros da matilha.", icon: "img/skill/buffS.png" },
@@ -389,7 +405,7 @@ const dinoDatabase = {
         fullName: "THERIZINOSAURUS<br>CHELONIFORMIS",
         image: "img/pict/theriperfil.png",
         diet: "🌿",
-        stats: { group: "-", age: 11, growth: "48 min", price: "150k", skin1: "-", skin2: "-" },
+        stats: { group: "4 membros", age: 11, growth: "48 min", price: "150k", skin1: "-", skin2: "-" },
         passives: [
             {
                 title: "Surto de poder", 
@@ -465,12 +481,7 @@ const dinoDatabase = {
         image: "img/pict/amargaperfil.png",
         diet: "🌿",
         stats: { 
-            group: "-", 
-            age: 15, 
-            growth: "48 min", 
-            price: "120k", 
-            skin1: "-", 
-            skin2: "-" 
+            group: "4 membros", age: 15, growth: "48 min", price: "120k", skin1: "-", skin2: "-" 
         },
         passives: [
             {
