@@ -118,7 +118,7 @@ tbody tr:hover {
     color:#0aaaaa;
     max-width: 800px;
     margin: 0 auto;
-    text-align: center;
+    text-indent: 30px;
     font-size: 1.1rem;
     border:2px solid #083838;
     border-radius:8px;
